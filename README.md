@@ -34,14 +34,14 @@ We tested the implementation in Python 3.7.
 
 ### test
 
-`python test.py --unfoldings 6  --num_filters 9 --kernel_size 9 --stride_test 12  --test_path '/nas_data/xiongfc/CVPR2022/ICVL/test/15/'  --gt_path '/nas_data/xiongfc/CVPR2022/ICVL/test_crop/' --model_name 'trained_model/ICVL_15_ckpt' --gpus 0   --verbose 0  --multi_theta 1  --patch_size 56  --test_batch 12
+`python test.py --unfoldings 6  --num_filters 9 --kernel_size 9 --stride_test 12  --test_path 'XXX'  --gt_path 'XXX' --model_name 'trained_model/ICVL_15_ckpt' --gpus 0   --verbose 0  --multi_theta 1  --patch_size 56  --test_batch 12
 `
 
 
 ### train
 
 
-`python train.py --unfoldings 6 --lr 5e-3 --patch_size 56 --train_path '/nas_data/xiongfc/CVPR2022/ICVL/train/' --num_filters 9 --kernel_size 9   --log_dir './trained_model' --out_dir './trained_model'  --verbose 0 --multi_theta 1 --validation_every 400  --gpus 1  --noise_level 15  --num_epochs 300 --bandwise 1 --train_batch 2`
+`python train.py --unfoldings 6 --lr 5e-3 --patch_size 56 --train_path 'XXX' --num_filters 9 --kernel_size 9   --log_dir './trained_model' --out_dir './trained_model'  --verbose 0 --multi_theta 1 --validation_every 400  --gpus 1  --noise_level 15  --num_epochs 300 --bandwise 1 --train_batch 2`
 
 
 
